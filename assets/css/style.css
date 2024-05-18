@@ -108,7 +108,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #f06f54;
+  background: var(--secodary-color);
   color: #fff;
 }
 
@@ -200,17 +200,19 @@ h6 {
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: var(--primary-color);
+  font-weight: bold;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
-  color: #fff;
+  color: var(--secodary-color);
+  border: 2px solid var(--secodary-color)
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #ef6445;
+  color: var(--primary-color);
+
+  border: 2px solid var(--primary-color);
 }
 
 .navbar .dropdown ul {
@@ -1496,7 +1498,7 @@ section {
 }
 
 .pricing .featured .get-started-btn:hover {
-  background: #ef6445;
+  background: var(--primary-color);
 }
 
 @media (max-width: 992px) {
@@ -1661,7 +1663,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ef6445;
+  background: var(--secodary-color);
 }
 
 @keyframes animate-loading {
@@ -1850,7 +1852,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #ef6445;
+  background: var(--primary-color);
 }
 
 #footer .copyright {

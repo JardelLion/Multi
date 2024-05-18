@@ -1,0 +1,23 @@
+.login-brand {
+  text-align: center;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  text-align: right;
+}
+.float-right a {
+  color: green;
+  text-decoration: none;
+}
+
+.btn-lg {
+  width: 100%;
+}/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,26 @@
+.login-brand {
+    text-align:center;
+}
+
+
+.form-group {
+    margin-top: 20px;
+
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    text-align: right;
+   
+    & a {
+        color: green;
+        text-decoration: none;
+    }
+}
+
+.btn-lg {
+    width: 100%;
+}
