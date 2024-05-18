@@ -1,0 +1,60 @@
+:root {
+  --primary-color: #106f6c;
+  --secodary-color:#1a1e4b;
+  --third-color: #2b2735;
+}
+
+th.table-title {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-info,
+.btn-edit {
+  position: relative;
+  border: none;
+  background-color: transparent;
+}
+
+.btn-info .btn-info-subtitle,
+.btn-edit .btn-edit-subtitle {
+  display: none;
+}
+
+.btn-info:hover .btn-info-subtitle,
+.btn-edit:hover .btn-edit-subtitle {
+  position: absolute;
+  display: block;
+  left: -7px;
+  background: #20a09c;
+  font-size: 10px;
+  color: #fff;
+  font-weight: bold;
+  width: 50px;
+  text-transform: uppercase;
+  padding: 1px;
+}
+
+.btn-info:hover .btn-info-subtitle {
+  width: 30px;
+  left: 5px;
+  margin-top: 2px;
+}
+
+@media (max-width: 505px) {
+  tr th:first-child {
+    display: none;
+  }
+}
+.modal-info {
+  display: flex;
+  flex-direction: column;
+}
+.modal-info div {
+  font-weight: bold;
+  display: inherit;
+}
+.modal-info div p {
+  font-weight: normal;
+}/*# sourceMappingURL=informacoes.css.map */
