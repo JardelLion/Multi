@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Octavio Tchikete - Login</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="assets/css/login.css">
+
+ 
+</head>
+
+<body>
+  <div id="app">
+    <section class="section">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2">
+            <div class="login-brand">
+              <!-- <img src="assets/img/stisla-fill.svg" alt="logo" width="100" class="shadow-light rounded-circle"> -->
+            
+              <h2>Octavio Tchikete</h2>
+            </div>
+  
+            <div class="card card-primary">
+              <div class="card-header"><h4>Registrar</h4></div>
+  
+              <div class="card-body">
+                <form method="POST">
+                  <div class="row">
+                    <div class="form-group col-6">
+                      <label for="frist_name">Primeiro Nome</label>
+                      <input id="frist_name" type="text" class="form-control" name="frist_name" autofocus required>
+                    </div>
+                    <div class="form-group col-6">
+                      <label for="last_name">Ultimo Nome</label>
+                      <input id="last_name" type="text" class="form-control" name="last_name" required>
+                    </div>
+                  </div>
+  
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" class="form-control" name="email" required>
+                    <div class="invalid-feedback">
+                    </div>
+                  </div>
+  
+                  <div class="row">
+                    <div class="form-group col-6">
+                      <label for="password" class="d-block">Palavra-passe</label>
+                      <input id="password" type="password" class="form-control pwstrength" data-indicator="pwindicator" name="password" required>
+                      <div id="pwindicator" class="pwindicator">
+                        <div class="bar"></div>
+                        <div class="label"></div>
+                      </div>
+                    </div>
+                    <div class="form-group col-6">
+                      <label for="password2" class="d-block">Confirmar Palavra-passe</label>
+                      <input id="password2" type="password" class="form-control" name="password-confirm" required>
+                    </div>
+                  </div>
+  
+                  <div class="row">
+                    <div class="form-group col-6">
+                      <label>Country</label>
+                      <select class="form-control selectric" required>
+                        <option>Indonesia</option>
+                        <option>Palestine</option>
+                        <option>Syria</option>
+                        <option>Malaysia</option>
+                        <option>Thailand</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-6">
+                      <label>Province</label>
+                      <select class="form-control selectric" required>
+                        <option>West Java</option>
+                        <option>East Java</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-group col-6">
+                      <label>City</label>
+                      <input type="text" class="form-control" required>
+                    </div>
+                    <div class="form-group col-6">
+                      <label>Postal Code</label>
+                      <input type="text" class="form-control" required>
+                    </div>
+                  </div>
+  
+                  <div class="form-group">
+                    <div class="custom-control custom-checkbox" style="display: flex;">
+                      <input type="checkbox" name="agree" class="custom-control-input" id="agree">
+                      <label class="custom-control-label" for="agree" style="margin-left: 10px;">I agree with the terms and conditions</label>
+                    </div>
+                  </div>
+  
+                  <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block" style="background-color: #106f6c;color:#fff;">
+                      Register
+                    </button>
+                  </div>
+                  
+                </form>
+              </div>
+            </div>
+            <div class="simple-footer">
+             SDOCA 2024
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
