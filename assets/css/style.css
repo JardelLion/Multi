@@ -1017,10 +1017,25 @@ section {
 .services .icon-box:hover .icon::before {
   background: var(--secodary-color);
 }
-
+.services .icon-box:hover h4,
 .services .icon-box:hover h4 a,
 .services .icon-box:hover p {
   color: #fff;
+}
+.info {
+  display: block;
+ 
+  box-shadow: 4px 6px 8px gray;
+  padding: 10px;
+  margin-top:40px;
+ 
+  border-radius: 50px;
+}
+.services .icon-box:hover .info,
+.info:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+  box-shadow: 0 0 0 #fff;
 }
 
 /*--------------------------------------------------------------
