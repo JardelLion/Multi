@@ -931,6 +931,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
+  position: relative;
   text-align: center;
   background: #fefefe;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
@@ -1023,6 +1024,10 @@ section {
   color: #fff;
 }
 .info {
+  position: absolute;
+  bottom:10px;
+  left: 10px;
+  right: 10px;
   display: block;
  
   box-shadow: 4px 6px 8px gray;
